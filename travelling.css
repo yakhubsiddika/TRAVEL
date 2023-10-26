@@ -1,0 +1,276 @@
+.travel{
+    background-image: url(https://wallpapers.com/images/high/720p-nature-background-0pvg5efcanrup5c9.webp);
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: relative;
+    list-style: none;
+}
+.nav{
+    background-color: 354649;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 22px;
+}
+.hom:hover{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+.locc:hover{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+.pacc:hover{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+.abb:hover{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+.coo:hover{
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
+.logo{
+    position: relative;
+    bottom:70px;
+    left:30px;
+}
+.tra{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    color: FFFDB7;
+    position: relative;
+    top:40px;
+    transition: all;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+@keyframes text{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(0%);}
+}
+.tra:hover{
+    color: white;
+    transition-duration: 1s;
+    transition-duration: 1s;
+}
+.para{
+    color: FFFDB7;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.para:hover{
+    color: white;
+    transition-duration: 1s;
+    transition-duration: 1s;
+}
+.ton{
+    background-color:black;
+    color: FFFDB7;
+    border-radius: 50px;
+    opacity: 0.8;
+    width:150px;
+    height: 50px;
+    position: relative;
+    left:650px;
+    transition: all;
+}
+.ton:hover{
+    transition-duration:1s;
+    width:200px;
+    color:white;
+    background-color:black;
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: latin;
+    padding: 10px;
+}
+.best{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.container-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fli{
+    position: relative;
+    left:15px;
+}
+.img{
+    position: relative;
+    left:50px;
+}
+.arr{
+    font-size:25px;
+    color: rgb(163, 161, 161);
+    position: relative;
+    bottom:20px;
+}
+.cat{
+    font-size: 25px;
+    color: rgb(163, 161, 161);
+    position: relative;
+    bottom:20px;
+    left:40px;
+}
+.image1, .image2, .image3, .image4{
+    border:solid;
+    padding: 50px;
+    border-color: rgb(218, 215, 215);
+}
+.image1:hover{
+    border:none;
+}
+.image2:hover{
+    border:none;
+}
+.image3:hover{
+    border:none;
+}
+.image4:hover{
+    border:none;
+}
+.jog{
+    position: relative;
+    left:40px;
+}
+.goj{
+    position: relative;
+    left:50px; 
+}
+.gmi{
+    position: relative;
+    left:40px; 
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.loc:hover{
+    color:deeppink;
+}
+.photo1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.photo1 a img{
+    border-radius: 30px;
+}
+.ill:hover{
+    padding:5px;
+}
+.kas{
+    position: relative;
+    margin-left: 20px;
+    bottom:110px;
+    font-size: 30px;
+    color: white;
+}
+.photo2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.photo2 a img{
+    border-radius: 30px;
+    position: relative;
+    bottom:150px;
+}
+.dub{
+    position: relative;
+    margin-left: 20px;
+    bottom:270px;
+    font-size: 30px;
+    color: white;
+}
+.photo3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.photo3 a img{
+    border-radius: 30px;
+    position: relative;
+    bottom:300px;
+}
+.swit{
+    position: relative;
+    margin-left: 20px;
+    bottom:410px;
+    font-size: 30px;
+    color: white;
+}
+.pag{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    position: relative;
+    bottom: 280px;
+}
+.v{
+    position: relative;
+    bottom:400px;
+    font-size: 20px;
+}
+.b{
+    position: relative;
+    bottom:420px;
+}
+.col{
+    background-color:354649 ;
+    height:400px;
+    position: relative;
+    bottom: 380px;
+}
+.q{
+    margin-left: 350px;
+    color: white;
+    position: relative;
+    top:100px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.r{
+    margin-left: 350px;
+    color: white;
+    position: relative;
+    top:100px;
+    list-style: none;
+    font-size: 20px;
+}
+.c{
+    margin-left: 950px;
+    color: white;
+    position: relative;
+    bottom:110px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.ic{
+    margin-left: 900px;
+    font-size: 35px;
+    position: relative;
+    bottom:100px;
+}
